@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+
+    <item
+        android:width="96dp"
+        android:height="96dp"
+        android:gravity="center">
+        <vector
+            android:width="96dp"
+            android:height="96dp"
+            android:viewportWidth="24"
+            android:viewportHeight="24">
+            <path
+                android:fillColor="#FFFFFF"
+                android:pathData="M12,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+            <path
+                android:fillColor="#FFFFFF"
+                android:pathData="M16.83,7.17C16.94,7.28 17,7.43 17,7.59v8.83c0,0.45 -0.54,0.67 -0.85,0.35l-2.79,-2.79c-0.2,-0.2 -0.51,-0.2 -0.71,0l-2.79,2.79c-0.31,0.31 -0.85,0.09 -0.85,-0.35V7.59c0,-0.16 0.06,-0.31 0.17,-0.42l4.25,-4.25c0.39,-0.39 1.02,-0.39 1.41,0l4.25,4.25zM12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2zM12,20c-4.41,0 -8,-3.59 -8,-8s3.59,-8 8,-8 8,3.59 8,8 -3.59,8 -8,8z"/>
+        </vector>
+    </item>
+
+    <item
+        android:bottom="32dp"
+        android:gravity="center_horizontal|bottom">
+        <vector
+            android:width="120dp"
+            android:height="24dp"
+            android:viewportWidth="120"
+            android:viewportHeight="24">
+            <path
+                android:fillColor="#FFFFFF"
+                android:pathData="M60,12L48,18L48,6z"/>
+            <path
+                android:strokeColor="#FFFFFF"
+                android:strokeWidth="2"
+                android:pathData="M0,12h48 M72,12h48"/>
+        </vector>
+    </item>
+</layer-list>

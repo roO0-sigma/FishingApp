@@ -1,0 +1,224 @@
+{
+  "fish": [
+    {
+      "name": "Карп",
+      "averageWeight": 4.5,
+      "averageLength": 60.0,
+      "waterType": "LAKE",
+      "description": "Крупная пресноводная рыба семейства карповых. Предпочитает теплую воду и илистое дно.",
+      "baitTypes": ["Бойлы", "Кукуруза", "Червь", "Тесто"],
+      "photoUrl": "https://example.com/carp.jpg",
+      "seasonality": ["Весна", "Лето", "Осень"],
+      "bestTimeOfDay": "Утро, вечер"
+    },
+    {
+      "name": "Щука",
+      "averageWeight": 5.0,
+      "averageLength": 70.0,
+      "waterType": "RIVER",
+      "description": "Хищная рыба, обитающая в пресных водах. Отличный охотник с острыми зубами.",
+      "baitTypes": ["Воблер", "Блесна", "Живец"],
+      "photoUrl": "https://example.com/pike.jpg",
+      "seasonality": ["Весна", "Осень", "Зима"],
+      "bestTimeOfDay": "Утро"
+    },
+    {
+      "name": "Окунь",
+      "averageWeight": 0.8,
+      "averageLength": 25.0,
+      "waterType": "RIVER",
+      "description": "Хищная рыба, обитающая как в реках, так и в озерах. Активный хищник.",
+      "baitTypes": ["Мормышка", "Малек", "Червь", "Блесна"],
+      "photoUrl": "https://example.com/perch.jpg",
+      "seasonality": ["Весна", "Лето", "Осень", "Зима"],
+      "bestTimeOfDay": "Утро, вечер"
+    },
+    {
+      "name": "Лещ",
+      "averageWeight": 2.0,
+      "averageLength": 45.0,
+      "waterType": "LAKE",
+      "description": "Крупная рыба семейства карповых. Предпочитает глубокие места с медленным течением.",
+      "baitTypes": ["Червь", "Опарыш", "Мотыль", "Перловка"],
+      "photoUrl": "https://example.com/bream.jpg",
+      "seasonality": ["Весна", "Лето", "Осень"],
+      "bestTimeOfDay": "Ночь"
+    },
+    {
+      "name": "Судак",
+      "averageWeight": 3.5,
+      "averageLength": 55.0,
+      "waterType": "RIVER",
+      "description": "Хищная рыба семейства окуневых. Предпочитает чистую воду и твердое дно.",
+      "baitTypes": ["Джиг", "Воблер", "Живец"],
+      "photoUrl": "https://example.com/zander.jpg",
+      "seasonality": ["Лето", "Осень"],
+      "bestTimeOfDay": "Вечер, ночь"
+    },
+    {
+      "name": "Карась",
+      "averageWeight": 0.7,
+      "averageLength": 20.0,
+      "waterType": "LAKE",
+      "description": "Неприхотливая рыба, хорошо приспосабливается к разным условиям.",
+      "baitTypes": ["Червь", "Тесто", "Перловка", "Мотыль"],
+      "photoUrl": "https://example.com/crucian.jpg",
+      "seasonality": ["Весна", "Лето", "Осень"],
+      "bestTimeOfDay": "День"
+    },
+    {
+      "name": "Форель",
+      "averageWeight": 1.5,
+      "averageLength": 35.0,
+      "waterType": "RIVER",
+      "description": "Хищная рыба семейства лососевых. Предпочитает чистую, холодную воду.",
+      "baitTypes": ["Блесна", "Воблер", "Нахлыст"],
+      "photoUrl": "https://example.com/trout.jpg",
+      "seasonality": ["Весна", "Осень"],
+      "bestTimeOfDay": "Утро"
+    },
+    {
+      "name": "Сом",
+      "averageWeight": 15.0,
+      "averageLength": 150.0,
+      "waterType": "RIVER",
+      "description": "Крупный хищник, обитающий в глубоких ямах рек.",
+      "baitTypes": ["Живец", "Лягушка", "Квок"],
+      "photoUrl": "https://example.com/catfish.jpg",
+      "seasonality": ["Лето"],
+      "bestTimeOfDay": "Ночь"
+    },
+    {
+      "name": "Плотва",
+      "averageWeight": 0.3,
+      "averageLength": 15.0,
+      "waterType": "LAKE",
+      "description": "Небольшая рыба семейства карповых. Держится стаями.",
+      "baitTypes": ["Мотыль", "Опарыш", "Перловка"],
+      "photoUrl": "https://example.com/roach.jpg",
+      "seasonality": ["Весна", "Лето", "Осень"],
+      "bestTimeOfDay": "День"
+    },
+    {
+      "name": "Жерех",
+      "averageWeight": 2.5,
+      "averageLength": 50.0,
+      "waterType": "RIVER",
+      "description": "Хищная рыба семейства карповых. Охотится на поверхности воды.",
+      "baitTypes": ["Воблер", "Блесна", "Живец"],
+      "photoUrl": "https://example.com/asp.jpg",
+      "seasonality": ["Лето", "Осень"],
+      "bestTimeOfDay": "Утро, вечер"
+    },
+    {
+      "name": "Треска",
+      "averageWeight": 5.0,
+      "averageLength": 80.0,
+      "waterType": "SEA",
+      "description": "Морская рыба семейства тресковых. Обитает в холодных водах.",
+      "baitTypes": ["Креветка", "Кальмар", "Пилкер"],
+      "photoUrl": "https://example.com/cod.jpg",
+      "seasonality": ["Зима", "Весна"],
+      "bestTimeOfDay": "День"
+    },
+    {
+      "name": "Камбала",
+      "averageWeight": 1.0,
+      "averageLength": 30.0,
+      "waterType": "SEA",
+      "description": "Плоская морская рыба, обитающая на дне.",
+      "baitTypes": ["Креветка", "Червь", "Моллюск"],
+      "photoUrl": "https://example.com/flounder.jpg",
+      "seasonality": ["Лето", "Осень"],
+      "bestTimeOfDay": "День"
+    },
+    {
+      "name": "Скумбрия",
+      "averageWeight": 0.8,
+      "averageLength": 35.0,
+      "waterType": "SEA",
+      "description": "Стайная морская рыба. Активный хищник.",
+      "baitTypes": ["Сабики", "Пилкер", "Блесна"],
+      "photoUrl": "https://example.com/mackerel.jpg",
+      "seasonality": ["Лето"],
+      "bestTimeOfDay": "Утро"
+    },
+    {
+      "name": "Сельдь",
+      "averageWeight": 0.3,
+      "averageLength": 25.0,
+      "waterType": "SEA",
+      "description": "Стайная морская рыба. Совершает длительные миграции.",
+      "baitTypes": ["Сабики", "Мелкие блесны"],
+      "photoUrl": "https://example.com/herring.jpg",
+      "seasonality": ["Весна", "Осень"],
+      "bestTimeOfDay": "День"
+    },
+    {
+      "name": "Язь",
+      "averageWeight": 1.5,
+      "averageLength": 40.0,
+      "waterType": "RIVER",
+      "description": "Рыба семейства карповых. Осторожный и сильный соперник.",
+      "baitTypes": ["Червь", "Кузнечик", "Хлеб"],
+      "photoUrl": "https://example.com/ide.jpg",
+      "seasonality": ["Весна", "Лето"],
+      "bestTimeOfDay": "Утро"
+    },
+    {
+      "name": "Линь",
+      "averageWeight": 1.2,
+      "averageLength": 35.0,
+      "waterType": "LAKE",
+      "description": "Рыба семейства карповых. Предпочитает заросшие водоемы.",
+      "baitTypes": ["Червь", "Опарыш", "Кукуруза"],
+      "photoUrl": "https://example.com/tench.jpg",
+      "seasonality": ["Лето"],
+      "bestTimeOfDay": "Утро, вечер"
+    },
+    {
+      "name": "Голавль",
+      "averageWeight": 1.8,
+      "averageLength": 45.0,
+      "waterType": "RIVER",
+      "description": "Рыба семейства карповых. Любит быстрое течение.",
+      "baitTypes": ["Кузнечик", "Воблер", "Попла"],
+      "photoUrl": "https://example.com/chub.jpg",
+      "seasonality": ["Лето", "Осень"],
+      "bestTimeOfDay": "День"
+    },
+    {
+      "name": "Налим",
+      "averageWeight": 2.0,
+      "averageLength": 50.0,
+      "waterType": "RIVER",
+      "description": "Холодолюбивая рыба семейства тресковых. Ведет ночной образ жизни.",
+      "baitTypes": ["Живец", "Червь", "Ракушка"],
+      "photoUrl": "https://example.com/burbot.jpg",
+      "seasonality": ["Зима"],
+      "bestTimeOfDay": "Ночь"
+    },
+    {
+      "name": "Красноперка",
+      "averageWeight": 0.4,
+      "averageLength": 20.0,
+      "waterType": "LAKE",
+      "description": "Небольшая рыба семейства карповых. Любит заросшие участки водоемов.",
+      "baitTypes": ["Мотыль", "Опарыш", "Кузнечик"],
+      "photoUrl": "https://example.com/rudd.jpg",
+      "seasonality": ["Лето"],
+      "bestTimeOfDay": "День"
+    },
+    {
+      "name": "Ерш",
+      "averageWeight": 0.1,
+      "averageLength": 15.0,
+      "waterType": "RIVER",
+      "description": "Мелкая рыба семейства окуневых. Держится у дна.",
+      "baitTypes": ["Мотыль", "Червь"],
+      "photoUrl": "https://example.com/ruff.jpg",
+      "seasonality": ["Весна", "Осень", "Зима"],
+      "bestTimeOfDay": "День"
+    }
+  ]
+} 

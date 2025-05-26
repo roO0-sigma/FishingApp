@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/registerFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.fishingapp.HomeFragment"
+        android:label="Главная"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_videoGuidesFragment"
+            app:destination="@id/videoGuidesFragment" />
+        <action
+            android:id="@+id/action_home_to_fishSearchFragment"
+            app:destination="@id/fishSearchFragment" />
+        <action
+            android:id="@+id/action_home_to_forumFragment"
+            app:destination="@id/forumFragment" />
+        <action
+            android:id="@+id/action_homtFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_accountFragment2"
+            app:destination="@id/accountFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.fishingapp.ui.auth.LoginFragment"
+        android:label="Вход">
+        <action
+            android:id="@+id/action_login_to_home"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.fishingapp.ui.auth.RegisterFragment"
+        android:label="Регистрация" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/videoGuidesFragment"
+        android:name="com.example.fishingapp.ui.main.videos.VideoGuidesFragment"
+        android:label="Видео-гайды"
+        tools:layout="@layout/fragment_video_guides">
+        <action
+            android:id="@+id/action_videoGuides_to_videoPlayer"
+            app:destination="@id/videoPlayerFragment" />
+        <action
+            android:id="@+id/action_videoGuidesFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/videoPlayerFragment"
+        android:name="com.example.fishingapp.ui.main.videos.VideoPlayerFragment"
+        android:label="Просмотр видео"
+        tools:layout="@layout/fragment_video_player">
+        <argument
+            android:name="video"
+            app:argType="com.example.fishingapp.data.model.VideoGuide" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fishSearchFragment"
+        android:name="com.example.fishingapp.ui.main.fishsearch.FishSearchFragment"
+        android:label="Поиск рыбы"
+        tools:layout="@layout/fragment_fish_search">
+        <action
+            android:id="@+id/action_fishSearch_to_fishDetails"
+            app:destination="@id/fishDetailsFragment" />
+        <action
+            android:id="@+id/action_fishSearchFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/forumFragment"
+        android:name="com.example.fishingapp.ui.main.forum.ForumFragment"
+        android:label="Форум">
+        <action
+            android:id="@+id/action_forumFragment_to_createPostFragment"
+            app:destination="@id/createPostFragment" />
+        <action
+            android:id="@+id/action_forumFragment_to_forumTopicFragment"
+            app:destination="@id/forumTopicFragment" />
+        <action
+            android:id="@+id/action_forumFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createPostFragment"
+        android:name="com.example.fishingapp.ui.main.forum.CreatePostFragment"
+        android:label="Создать пост"
+        tools:layout="@layout/fragment_create_post" />
+
+    <fragment
+        android:id="@+id/forumTopicFragment"
+        android:name="com.example.fishingapp.ui.main.forum.ForumTopicFragment"
+        android:label="Просмотр поста"
+        tools:layout="@layout/fragment_forum_topic">
+        <argument
+            android:name="post_id"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_forumTopicFragment_to_forumFragment"
+            app:destination="@id/forumFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.fishingapp.ui.auth.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" >
+        <action
+            android:id="@+id/action_accountFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_accountFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fishDetailsFragment"
+        android:name="com.example.fishingapp.ui.main.fishsearch.FishDetailsFragment"
+        android:label="Информация о рыбе"
+        tools:layout="@layout/fragment_fish_details">
+        <argument
+            android:name="fishId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_fishDetailsFragment_to_fishSearchFragment"
+            app:destination="@id/fishSearchFragment" />
+    </fragment>
+
+</navigation>
