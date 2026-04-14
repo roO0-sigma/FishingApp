@@ -5,6 +5,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
@@ -31,6 +32,8 @@ class CreatePostFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_create_post, container, false)
     }
 
+
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -40,6 +43,11 @@ class CreatePostFragment : Fragment() {
 
         createButton.setOnClickListener {
             createPost()
+        }
+
+        view.findViewById<ImageView>(R.id.imageView).setOnClickListener {
+            findNavController().navigate(R.id.forumFragment)
+
         }
     }
 
