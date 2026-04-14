@@ -25,7 +25,6 @@ class VideoItemViewHolder(
         duration.text = video.duration ?: "00:00"
         views.text = "${video.views ?: 0} просмотров"
 
-        // Загрузка превью через Glide
         Glide.with(view)
             .load(video.thumbnailUrl)
             .centerCrop()

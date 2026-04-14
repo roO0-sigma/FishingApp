@@ -66,7 +66,7 @@ class CreatePostFragment : Fragment() {
             return
         }
 
-        // Показываем индикатор загрузки
+        // индикатор загрузки
         createButton.isEnabled = false
         createButton.text = "Создание..."
 
@@ -74,7 +74,6 @@ class CreatePostFragment : Fragment() {
             title = title,
             content = content,
             authorEmail = currentUser.email ?: ""
-            // timestamp будет установлен автоматически сервером благодаря @ServerTimestamp
         )
 
         db.collection("posts")

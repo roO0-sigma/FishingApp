@@ -33,7 +33,6 @@ class VideoGuidesFragment : Fragment() {
             findNavController().navigate(R.id.action_videoGuidesFragment_to_homeFragment) 
         }
 
-        // Пример данных (можно заменить на данные из БД или API)
         videoList = listOf(
             VideoGuide(
                 id = "1",

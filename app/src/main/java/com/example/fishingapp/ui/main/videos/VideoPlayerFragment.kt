@@ -15,14 +15,12 @@ class VideoPlayerFragment : Fragment(R.layout.fragment_video_player) {
         super.onViewCreated(view, savedInstanceState)
         args = VideoPlayerFragmentArgs.fromBundle(requireArguments())
         
-        // Открываем видео во внешнем приложении
         openVideoExternally(args.video.videoUrl)
     }
 
     private fun openVideoExternally(videoUrl: String) {
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse(videoUrl))
         startActivity(intent)
-        // Закрываем фрагмент, так как он больше не нужен
         parentFragmentManager.popBackStack()
     }
 }
